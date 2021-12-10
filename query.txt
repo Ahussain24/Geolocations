@@ -1,0 +1,1 @@
+SELECT persons.fullname,persons.fullname FROM persons JOIN friends f JOIN friends g ON persons.id = f.person1_id AND persons.id = g.person2_id;
